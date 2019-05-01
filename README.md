@@ -15,7 +15,7 @@ yarn add @intuit/renovate-config --dev
 And then go to your renovate config locally and add:
 
 ```json
-"extends": ["@appfabric"]
+"extends": ["@intuit"]
 ```
 
 # Usage
