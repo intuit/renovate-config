@@ -1,0 +1,92 @@
+{
+  "name": "@intuit/renovate-config",
+  "version": "0.0.0",
+  "author": "David Aghassi <david_aghassi@intuit.com>",
+  "license": "MIT",
+  "repository": {
+    "url": "git@github.com:intuit/renovate-config.git",
+    "type": "git"
+  },
+  "renovate-config": {
+    "default": {
+      "extends": [
+        ":separateMajorReleases",
+        ":combinePatchMinorReleases",
+        ":ignoreUnstable",
+        ":prImmediately",
+        ":renovatePrefix",
+        ":updateNotScheduled",
+        ":ignoreModulesAndTests",
+        ":maintainLockFilesDisabled",
+        ":autodetectPinVersions",
+        ":prConcurrentLimit20",
+        "group:monorepos",
+        "helpers:disableTypesNodeMajor",
+        "helpers:oddIsUnstablePackages",
+        ":automergeDigest",
+        ":automergePatch",
+        ":pinAllExceptPeerDependencies",
+        ":semanticPrefixFixDepsChoreOthers"
+      ],
+      "separateMinorPatch": true,
+      "semanticCommits": true,
+      "respectLatest": true,
+      "updateLockFiles": true,
+      "prHourlyLimit": 0,
+      "prConcurrentLimit": 0,
+      "labels": [
+        "dependency-update"
+      ],
+      "patch": {
+        "labels": [
+          "patch",
+          "automerge",
+          "dependency-update"
+        ]
+      },
+      "minor": {
+        "labels": [
+          "minor",
+          "dependency-update"
+        ]
+      },
+      "major": {
+        "labels": [
+          "major",
+          "dependency-update"
+        ]
+      },
+      "digest": {
+        "labels": [
+          "digest",
+          "automerge",
+          "dependency-update"
+        ]
+      },
+      "packageRules": [
+        {
+          "automerge": true,
+          "depTypeList": [
+            "devDependencies"
+          ],
+          "labels": [
+            "automerge",
+            "dev-dependency",
+            "dependency-update"
+          ]
+        }
+      ]
+    }
+  },
+  "release": {
+    "prepare": [
+      "@semantic-release/npm",
+      "@semantic-release/git"
+    ]
+  },
+  "devDependencies": {
+    "@semantic-release/git": "7.0.7",
+    "@semantic-release/npm": "5.1.4",
+    "semantic-release": "15.13.3"
+  }
+}
