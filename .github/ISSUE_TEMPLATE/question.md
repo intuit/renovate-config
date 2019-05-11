@@ -8,7 +8,3 @@ about: If you have questions, please check our Slack
 ## 💬 Questions and Help
 
 ### Please note that this issue tracker is not a help form and this issue will be closed.
-
-For questions or help please see:
-
-- [Slack](https://intuit-teams.slack.com/messages/C3J678N02)
