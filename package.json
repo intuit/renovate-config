@@ -1,6 +1,6 @@
 {
   "name": "@intuit/renovate-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "David Aghassi <david_aghassi@intuit.com>",
   "license": "MIT",
   "repository": {
