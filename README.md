@@ -4,7 +4,7 @@
 [![CircleCI](https://circleci.com/gh/intuit/renovate-config/tree/master.svg?style=shield)](https://circleci.com/gh/intuit/renovate-config/tree/master)
 [![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovatebot.com/)
 
-This repo serves as the base line for all renovate configs used within Intuit.
+This repo serves as the base line for all renovate configs used within Intuit. By default, this config will attempt to auto merge all patch updates as well as dev dependencies.
 
 ## Install
 
