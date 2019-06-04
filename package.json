@@ -8,7 +8,7 @@
     "type": "git"
   },
   "publishConfig": {
-    "private": false
+    "access": "public"
   },
   "renovate-config": {
     "default": {
