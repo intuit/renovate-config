@@ -7,6 +7,9 @@
     "url": "git@github.com:intuit/renovate-config.git",
     "type": "git"
   },
+  "publishConfig": {
+    "private": false
+  },
   "renovate-config": {
     "default": {
       "extends": [
