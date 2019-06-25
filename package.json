@@ -90,7 +90,7 @@
   },
   "devDependencies": {
     "@semantic-release/git": "7.0.13",
-    "@semantic-release/npm": "5.1.11",
+    "@semantic-release/npm": "5.1.12",
     "semantic-release": "15.13.17"
   }
 }
