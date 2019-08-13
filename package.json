@@ -43,23 +43,27 @@
       "patch": {
         "labels": [
           "patch",
-          "automerge"
+          "automerge",
+          "dependency-update"
         ]
       },
       "minor": {
         "labels": [
-          "minor"
+          "minor",
+          "dependency-update"
         ]
       },
       "major": {
         "labels": [
-          "major"
+          "major",
+          "dependency-update"
         ]
       },
       "digest": {
         "labels": [
           "digest",
-          "automerge"
+          "automerge",
+          "dependency-update"
         ]
       },
       "packageRules": [
@@ -67,7 +71,10 @@
           "minor": {
             "automerge": true,
             "labels": [
-              "automerge"
+              "automerge",
+              "minor",
+              "dependency-update",
+              "dev-dependency"
             ]
           },
           "depTypeList": [
