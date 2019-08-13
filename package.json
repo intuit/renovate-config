@@ -68,13 +68,14 @@
       },
       "packageRules": [
         {
-          "automerge": true,
+          "minor": {
+            "automerge": true
+          },
           "depTypeList": [
             "devDependencies"
           ],
           "branchPrefix": "dev-dependency-renovate/",
           "labels": [
-            "automerge",
             "dev-dependency",
             "dependency-update"
           ]
