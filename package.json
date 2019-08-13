@@ -43,41 +43,39 @@
       "patch": {
         "labels": [
           "patch",
-          "automerge",
-          "dependency-update"
+          "automerge"
         ]
       },
       "minor": {
         "labels": [
-          "minor",
-          "dependency-update"
+          "minor"
         ]
       },
       "major": {
         "labels": [
-          "major",
-          "dependency-update"
+          "major"
         ]
       },
       "digest": {
         "labels": [
           "digest",
-          "automerge",
-          "dependency-update"
+          "automerge"
         ]
       },
       "packageRules": [
         {
           "minor": {
-            "automerge": true
+            "automerge": true,
+            "labels": [
+              "automerge"
+            ]
           },
           "depTypeList": [
             "devDependencies"
           ],
           "branchPrefix": "dev-dependency-renovate/",
           "labels": [
-            "dev-dependency",
-            "dependency-update"
+            "dev-dependency"
           ]
         }
       ]
