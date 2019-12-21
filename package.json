@@ -98,6 +98,6 @@
   "devDependencies": {
     "@semantic-release/git": "7.0.18",
     "@semantic-release/npm": "5.3.4",
-    "semantic-release": "15.13.32"
+    "semantic-release": "15.14.0"
   }
 }
