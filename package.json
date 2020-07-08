@@ -89,7 +89,7 @@
         {
           "packagePatterns": ["auto", "@auto-it"],
           "groupName": "auto"
-        },
+        }
       ]
     }
   },
