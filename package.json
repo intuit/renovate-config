@@ -85,7 +85,11 @@
           "labels": [
             "dev-dependency"
           ]
-        }
+        },
+        {
+          "packagePatterns": ["auto", "@auto-it"],
+          "groupName": "auto"
+        },
       ]
     }
   },
