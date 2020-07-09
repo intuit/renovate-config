@@ -69,6 +69,16 @@
       },
       "packageRules": [
         {
+          "patch": {
+            "automerge": true,
+            "labels": [
+              "automerge",
+              "patch",
+              "automerge",
+              "dependency-update",
+              "dev-dependency"
+            ]
+          },
           "minor": {
             "automerge": true,
             "labels": [
@@ -78,13 +88,17 @@
               "dev-dependency"
             ]
           },
+          "major": {
+            "labels": [
+              "major",
+              "dependency-update",
+              "dev-dependency"
+            ]
+          },
           "depTypeList": [
             "devDependencies"
           ],
-          "branchPrefix": "dev-dependency-renovate/",
-          "labels": [
-            "dev-dependency"
-          ]
+          "branchPrefix": "dev-dependency-renovate/"
         },
         {
           "packagePatterns": [
