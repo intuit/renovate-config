@@ -31,6 +31,7 @@
         ":pinAllExceptPeerDependencies",
         ":semanticPrefixFixDepsChoreOthers"
       ],
+      "masterIssue": true,
       "unicodeEmoji": true,
       "separateMinorPatch": true,
       "semanticCommits": true,
@@ -38,6 +39,14 @@
       "updateLockFiles": true,
       "prHourlyLimit": 0,
       "prConcurrentLimit": 0,
+      "prBodyColumns": [
+        "Package",
+        "Update",
+        "Type",
+        "Change",
+        "Package file",
+        "References"
+      ],
       "labels": [
         "dependency-update"
       ],
