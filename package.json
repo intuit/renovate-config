@@ -111,10 +111,10 @@
         },
         {
           "packagePatterns": [
-            "auto",
-            "@auto-it"
+            "^auto",
+            "^@auto-it\/"
           ],
-          "groupName": "auto"
+          "groupName": "auto monorepo"
         }
       ]
     }
