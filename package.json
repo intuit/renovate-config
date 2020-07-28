@@ -29,7 +29,8 @@
         ":automergeDigest",
         ":automergePatch",
         ":pinAllExceptPeerDependencies",
-        ":semanticPrefixFixDepsChoreOthers"
+        ":semanticPrefixFixDepsChoreOthers",
+        "docker:enableMajor"
       ],
       "masterIssue": true,
       "unicodeEmoji": true,
