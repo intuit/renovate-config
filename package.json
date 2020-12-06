@@ -32,7 +32,7 @@
         ":semanticPrefixFixDepsChoreOthers",
         "docker:enableMajor"
       ],
-      "masterIssue": true,
+      "dependencyDashboard": true,
       "unicodeEmoji": true,
       "separateMinorPatch": true,
       "semanticCommits": true,
